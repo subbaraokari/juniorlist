@@ -1,0 +1,19 @@
+create table junior
+(
+batch int(11),
+department varchar(45),
+ user_id bigint(20)
+ primary key);
+ create table user
+ (
+ user_id bigint(20) primary key,
+ first_name varchar(45),
+ last_name varchar(45),
+ password varchar(45),
+ email varchar(45),
+ mobile_number varchar(45),
+ gender varchar(45),
+ date_of_birth DATE);
+insert into junior values (2016,'EEE',1),(2016,'ECE',2);
+insert into user values(1,	'Faculty',	'Faculty',	'Faculty',	'faculty@gmail.com',	'9856471235',	'Female',	'2019-03-02'),
+(2,	'Faculty1',	'Faculty1',	'Faculty1',	'Faculty1@gmail.com',	'9856471235',	'Female',	'2019-03-02');
